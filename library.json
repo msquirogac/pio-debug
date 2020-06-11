@@ -1,0 +1,34 @@
+{
+	"name":"pio-debug",
+	"version":"1.0",
+	"description":"Conditional compiling for debug mode on PlatformIO.",
+	"repository":{
+		"url":"https://github.com/msquirogac/pio-debug",
+		"type":"git"
+	},
+	"keywords":[
+		"debug",
+		"platformio"
+	],
+	"frameworks":"*",
+	"platforms":"*",
+	"export":{
+		"exclude":[
+			"extras",
+			"docs",
+			"tests",
+			"test",
+			"*.doxyfile",
+			"*.pdf"
+		],
+		"include":"src/"
+	},
+	"authors":[
+		{
+			"maintainer":true,
+			"name":"Mauro Quiroga",
+			"url":null,
+			"email":"msquirogac@gmail.com"
+		}
+	]
+}
